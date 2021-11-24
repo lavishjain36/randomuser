@@ -1,6 +1,6 @@
 async function getAlldata() {
   try {
-      var data = await fetch("http://makeup-api.herokuapp.com/api/v1/products.json");
+      var data = await fetch("https://makeup-api.herokuapp.com/api/v1/products.json");
       var obj = await data.json();
       //console.log(obj);
       for (var i = 0; i < obj.length; i++) {
