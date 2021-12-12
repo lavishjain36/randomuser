@@ -1,12 +1,14 @@
-.container-1{
-  border: 10px whitesmoke;
-  background-color: plum;
+body{
+    background-color: #8f4d4d;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
-.container-1 div{
-  border: 10px solid whitesmoke;
-  padding: 10px;
-}
-.flex-box p{
-  color:brown;
-  font-style: italic;
+
+input{
+    margin-bottom: 100px;
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    border: none;
+    font-size: 50px;
 }
